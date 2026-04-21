@@ -1,0 +1,25 @@
+{
+  "name": "cryptography-ed25519-testing",
+  "version": "1.0.0",
+  "description": "Testing and performance comparison of Ed25519 cryptographic libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nzimovskyi/cryptography-ed25519-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nzimovskyi/cryptography-ed25519-testing/issues"
+  },
+  "homepage": "https://github.com/nzimovskyi/cryptography-ed25519-testing#readme",
+  "dependencies": {
+    "@noble/ed25519": "^3.1.0",
+    "tweetnacl": "^1.0.3"
+  }
+}
