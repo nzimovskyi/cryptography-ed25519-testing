@@ -4,7 +4,7 @@
   "description": "Testing and performance comparison of Ed25519 cryptographic libraries",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/nzimovskyi/cryptography-ed25519-testing#readme",
   "dependencies": {
-    "@noble/ed25519": "^3.1.0",
+    "@noble/ed25519": "^1.7.1",
+    "@noble/hashes": "^2.2.0",
     "tweetnacl": "^1.0.3"
   },
   "devDependencies": {
